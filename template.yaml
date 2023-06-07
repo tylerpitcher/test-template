@@ -23,16 +23,16 @@ spec:
           ui:autofocus: true
           ui:options:
             rows: 5
-    - title: Select Message
+    - title: Fill in some steps
       required:
         - msg
-       properties:
-        msg:
+      properties:
+        name:
           title: Enter Message
           type: string
-          description: Message to print
+          description: The message to be printed
           ui:options:
-          rows: 5
+            rows: 5
     - title: Choose a location
       required:
         - repoUrl
