@@ -33,6 +33,7 @@ spec:
         group:
           title: Group Name
           type: string
+          default: net.intact
           ui:options:
             rows: 5
         artifact:
