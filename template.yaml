@@ -28,7 +28,6 @@ spec:
           title: Message
           type: string
           description: Message to be printed
-          ui:autofocus: true
           ui:options:
             rows: 5
 
