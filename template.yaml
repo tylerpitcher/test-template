@@ -15,7 +15,6 @@ spec:
     - title: Fill in some steps
       required:
         - name
-        - msg
       properties:
         name:
           title: Name
@@ -24,6 +23,11 @@ spec:
           ui:autofocus: true
           ui:options:
             rows: 5
+            
+    - title: Fill in Message
+      required:
+        - msg
+      properties:
         msg:
           title: Message
           type: string
