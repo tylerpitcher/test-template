@@ -15,6 +15,7 @@ spec:
     - title: Fill in some steps
       required:
         - name
+        - msg
       properties:
         name:
           title: Name
@@ -23,16 +24,14 @@ spec:
           ui:autofocus: true
           ui:options:
             rows: 5
-    - title: Message
-      required:
-        - msg
-      properties:
-        name:
-          title: Enter Message
+        msg:
+          title: Message
           type: string
-          description: The message to be printed
+          description: Message to be printed
+          ui:autofocus: true
           ui:options:
             rows: 5
+
     - title: Choose a location
       required:
         - repoUrl
