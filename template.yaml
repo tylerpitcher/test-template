@@ -26,13 +26,13 @@ spec:
     - title: Select Message
       required:
         - msg
-        properties:
-          msg:
-            title: Enter Message
-             type: string
-             description: Message to print
-             ui:options:
-              rows: 5
+       properties:
+        msg:
+          title: Enter Message
+          type: string
+          description: Message to print
+          ui:options:
+          rows: 5
     - title: Choose a location
       required:
         - repoUrl
