@@ -1,1 +1,1 @@
-echo "Hello ${{ values.name }}!"
+echo "Hello ${{ values.msg }}!"
