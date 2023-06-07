@@ -2,9 +2,9 @@ apiVersion: scaffolder.backstage.io/v1beta3
 # https://backstage.io/docs/features/software-catalog/descriptor-format#kind-template
 kind: Template
 metadata:
-  name: example-bash-template
-  title: Example Bash Script Template
-  description: An example template for printing in Bash
+  name: spring-web-template
+  title: Spring Web Template
+  description: A Spring Web Template for REST APIs
 spec:
   owner: user:guest
   type: service
